@@ -1,2 +1,3 @@
-//console log for testing
-console.log('Hello World');
+export default () => {
+  return "Hello World";
+};
