@@ -6,6 +6,8 @@ const destination = `../${name}`;
 const jsonPath = `${destination}/package.json`;
 const files = [
   "src",
+  ".eslintrc.json",
+  "jest.config.ts",
   ".gitignore",
   "package.json",
   "tsconfig.json",
